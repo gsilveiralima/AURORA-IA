@@ -54,15 +54,13 @@ Exemplo de nomes esperados:
 
 ```env
 OPENAI_API_KEY=
-FIREBASE_PROJECT_ID=
-FIREBASE_CLIENT_EMAIL=
-FIREBASE_PRIVATE_KEY=
+FIREBASE_SERVICE_ACCOUNT_KEY=
 NEXT_PUBLIC_FIREBASE_API_KEY=
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=
 ```
 
-Os nomes efetivamente utilizados devem ser conferidos nos módulos de configuração Firebase do projeto.
+`FIREBASE_SERVICE_ACCOUNT_KEY` deve conter o JSON completo da service account quando a aplicação não usar Application Default Credentials. Os nomes acima correspondem aos módulos atuais de configuração do projeto.
 
 ## Validação
 
